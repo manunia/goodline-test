@@ -1,0 +1,116 @@
+@import url(roboto_family.css);
+
+
+body {
+    background: #F7F7F7;
+}
+main {
+    width: 960px;
+    height: 4542px;
+    margin: 0 auto;
+}
+header {
+    height: 408px;
+    background: url("../images/im1.png") no-repeat;
+    margin-top: 40px;
+    padding: 46px;
+}
+h1 {
+    font-family: 'Roboto Bold Condensed';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #2E3134;
+}
+.logo {
+    background: url("../images/ic-logo.svg") center no-repeat;
+    margin-right: 10px;
+    float: left;
+    width: 58.38px;
+    height: 91.63px;
+}
+
+.intro {
+    font-family: 'Roboto Black';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #2E3134;
+    margin-top: 100px;
+}
+.wrap-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.gradient-fon {
+    background: linear-gradient(180deg, #8CB928 0%, #45AE4D 100%);
+    /* sh */
+    box-shadow: 0px 25px 100px #48AE4B;
+    border-radius: 18px;
+}
+.cam-block {
+    width: 314px;
+    height: 619px;
+    margin-top: 103px
+}
+.camera {
+    background: url("../images/cam.png") center no-repeat;
+    width: inherit;
+    height: inherit;
+}
+.learn {
+    font-family: 'Roboto Regular';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #747474;
+    margin-top: 15px;
+    cursor: pointer;
+}
+h2 {
+    font-family: 'Roboto Bold Condensed';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #313334;
+    margin-top: 103px;
+}
+.market {
+    width: 213.7px;
+    height: 213.7px;
+    margin-top: 40px;
+    align-content: center;
+    display: grid;
+}
+.buy {
+    font-family: 'Roboto Regular';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+.buy>p {
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0;
+    padding: 0;
+}
+.icons:nth-child(n) {
+    float: left;
+    padding-bottom: 20px;
+}
