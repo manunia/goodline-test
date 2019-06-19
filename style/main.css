@@ -114,3 +114,57 @@ h2 {
     float: left;
     padding-bottom: 20px;
 }
+
+form {
+    width: 796px;
+    height: 332px;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 100px #48AE4B;
+    border-radius: 18px;
+    margin: 111px auto 0;
+    text-align: center;
+}
+form>label {
+    font-family: 'Roboto Regular';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #313334;
+    margin-top: 40px;
+}
+#telephone {
+    width: 276px;
+    height: 60px;
+    border: 3px solid #DAE0E5;
+    border-radius: 4px;
+    margin-top: 33px;
+    font-family: 'Roboto Regular';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #363636;
+    padding: 14px 9px;
+}
+#send {
+    width: 278px;
+    height: 65.92px;
+    background: url("../images/ic-send.svg") right no-repeat #72BF44;
+    border-radius: 4px;
+    font-family: 'Roboto Bold Condensed';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 19px;
+}
