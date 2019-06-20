@@ -2,12 +2,10 @@
  * Created by Admin on 19.06.2019.
  */
 
-
 $("#send").click(function () {
-
     var tel = $('#telephone').val();
     var obj = {
-        "key": tel,
+        "tel": tel
     };
     var data = JSON.stringify(obj);
 
@@ -20,7 +18,11 @@ $("#send").click(function () {
         success: function (data, textStatus, jqXHR) {
             var json = JSON.stringify(data);
             console.log(json);
-            //$("#telephone").val(json);
+            alert(json);
         }
     });
 });
+
+$(function () {
+    $("#telephone").mask("+7(999)999-9999", {placeholder: "+7 ___ ___ ____"});
+})
