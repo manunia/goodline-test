@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style/main.css">
     <title>Good Line test</title>
 
@@ -10,7 +9,7 @@
 <body>
     <main>
         <header>
-            <div class="logo-block col-4">
+            <div class="logo-block">
                 <div class="logo"></div>
                 <h1>Датчик спокойствия</h1>
                 <p class="intro">
@@ -25,12 +24,12 @@
         </header>
 
         <div class="wrap-flex">
-            <div class="gradient-fon cam-block" id="cam_1">
+            <div class="gradient-fon sh-fon cam-block" id="cam_1">
                 <div class="camera"></div>
                 <div class="learn"><span>Подробнее</span></div>
             </div>
 
-            <div class="gradient-fon cam-block" id="cam_2">
+            <div class="gradient-fon sh-fon cam-block" id="cam_2">
                 <div class="camera"></div>
                 <div class="learn"><span>Подробнее</span></div>
             </div>
@@ -40,7 +39,7 @@
         <h2>Приобрести</h2>
 
         <div class="wrap-flex">
-            <div class="gradient-fon market">
+            <div class="gradient-fon sh-fon market">
                 <div class="buy">
                     <div class="icons">
                         <img src="images/cam.svg" width="39" height="87">
@@ -48,7 +47,7 @@
                     <span>Покупка</span>
                 </div>
             </div>
-            <div class="gradient-fon market">
+            <div class="gradient-fon sh-fon market">
                 <div class="buy">
                     <div class="icons">
                         <img src="images/cal.svg" width="59" height="63">
@@ -58,7 +57,7 @@
                     <span>Рассрочка</span>
                 </div>
             </div>
-            <div class="gradient-fon market">
+            <div class="gradient-fon sh-fon market">
                 <div class="buy">
                     <div class="icons">
                         <img src="images/100.svg" width="46" height="46">
@@ -69,7 +68,7 @@
                     <span>"Все под контролем"</span>
                 </div>
             </div>
-            <div class="gradient-fon market">
+            <div class="gradient-fon sh-fon market">
                 <div class="buy">
                     <div class="icons">
                         <img src="images/btv.svg" width="40" height="32"><br>
@@ -93,6 +92,17 @@
                 <input id="send" type="button" value="Отправить заявку"><br>
             </div>
         </form>
+
+        <!--Карусель-->
+        <h2>Отзывы</h2>
+
+        <div class="wrap-flex carusel">
+            <div class="card gradient-fon front">your content1</div>
+            <div class="card gradient-fon side">your content2</div>
+            <!--<div class="card gradient-fon">your content</div>-->
+        </div>
+        <button id="slide">+</button>
+
     </main>
 
 
@@ -104,6 +114,6 @@
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="script/plugin/jquery.maskedinput.min.js"></script>
     <script src="script/sendtel.js"></script>
-
+    <script src="script/slider.js"></script>
 </body>
 </html>

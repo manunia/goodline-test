@@ -1,5 +1,5 @@
 @import url(roboto_family.css);
-
+@import "carusel.css";
 
 body {
     background: #F7F7F7;
@@ -30,7 +30,9 @@ h1 {
     width: 58.38px;
     height: 91.63px;
 }
-
+.logo-block {
+    width: 35%;
+}
 .intro {
     font-family: 'Roboto Black';
     font-style: normal;
@@ -38,7 +40,7 @@ h1 {
     font-size: 20px;
     line-height: 23px;
     color: #2E3134;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .wrap-flex {
     display: flex;
@@ -47,10 +49,11 @@ h1 {
 }
 .gradient-fon {
     background: linear-gradient(180deg, #8CB928 0%, #45AE4D 100%);
-    /* sh */
-    box-shadow: 0px 25px 100px #48AE4B;
     border-radius: 18px;
-}
+}.sh-fon {
+     /* sh */
+     box-shadow: 0px 25px 100px #48AE4B;
+ }
 .cam-block {
     width: 314px;
     height: 619px;
@@ -126,6 +129,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
 }
 form>label {
     font-family: 'Roboto Regular';
@@ -145,11 +149,11 @@ form>label {
     font-family: 'Roboto Regular';
     font-style: normal;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 31px;
     line-height: 42px;
     text-transform: uppercase;
     color: #363636;
-    padding: 9px 24px;
+    text-align: center;
 }
 #send {
     width: 278px;
@@ -193,3 +197,5 @@ form>label {
     right: 19px;
     top: 20px;
 }
+
+
