@@ -1,5 +1,6 @@
-@import url(roboto_family.css);
+@import "roboto_family.css";
 @import "carusel.css";
+@import "popup.css";
 
 body {
     background: #F7F7F7;

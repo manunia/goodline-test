@@ -7,7 +7,10 @@
 .card {
     width: 560px;
     height: 240px;
-
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .front {
     z-index: 5;
@@ -120,4 +123,43 @@
         height: 200px;
         opacity: 0.5;
     }
+}
+
+#slide {
+    position: absolute;
+    width: 26px;
+    height: 21px;
+    top: 230px;
+    border: none;
+    background: url("../images/ic-down.png") center no-repeat;
+    z-index: 6;
+    cursor: pointer;
+}
+.avatar {
+    float: left;
+    margin-right: 20px;
+}
+.name {
+    font-family: 'Roboto Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.post {
+    font-family: 'Roboto Regular';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: 40px;
 }
